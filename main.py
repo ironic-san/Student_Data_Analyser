@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd 
 #data cleaning
-df=pd.read_csv(r"C:\Users\Sanjeev Prasad\VS Code\Cs\Python\student_data.csv")
+df=pd.read_csv("student_data.csv")
 m,n=df.shape
 c=0
 for i in range(n):
@@ -71,4 +71,5 @@ plt.title("Marks Distribution",fontsize=25,fontfamily="Times New Roman",color="#
 plt.xlabel("Marks",fontsize=20,fontfamily="Times New Roman",color="#1d0af0")
 plt.ylabel("Students",fontsize=20,fontfamily="Times New Roman",color="#1d0af0")
 plt.xticks(range(150,300,10))
+
 plt.show()
