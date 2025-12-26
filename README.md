@@ -14,4 +14,9 @@ This project analyzes student performance using Python:
 ## Dataset
 student_data.csv (contains marks of 40 students)
 
-## Run
+## How to Run
+
+1. Clone the repo
+2. Install Python & required libraries (e.g. `pip install pandas numpy matplotlib`)
+3. Run `python main.py`
+
